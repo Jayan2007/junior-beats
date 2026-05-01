@@ -1,0 +1,12 @@
+body {
+  background: black;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+div {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid white;
+}
