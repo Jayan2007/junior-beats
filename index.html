@@ -2,12 +2,42 @@
 <html>
 <head>
   <title>Junior Beats</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Welcome to Junior Beats</h1>
+<h1>Junior Beats</h1>
 
-<a href="store.html">Go to Store</a>
+<!-- STORE -->
+<h2>Store</h2>
+<div id="beats"></div>
+
+<hr>
+
+<!-- CART -->
+<h2>Cart</h2>
+<div id="cart"></div>
+
+<hr>
+
+<!-- ADMIN -->
+<h2>Admin Upload</h2>
+
+<input id="name" placeholder="Beat name">
+<input id="price" placeholder="Price">
+<input id="audio" placeholder="Audio URL">
+<input id="image" placeholder="Image URL">
+<button onclick="addBeat()">Add Beat</button>
+
+<hr>
+
+<!-- CHAT -->
+<h2>Chat</h2>
+<div id="chatBox"></div>
+<input id="msg" placeholder="Message">
+<button onclick="sendMsg()">Send</button>
+
+<script src="app.js"></script>
 
 </body>
 </html>
